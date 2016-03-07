@@ -29,10 +29,10 @@ I have just done some small tweaks to generic workflow of sails nothing else. Ba
 served on separate repository https://github.com/effervescentia/aurelia-sailsjs-boilerplate-backend
 
 #### Frontend
-[![GitHub version](https://badge.fury.io/gh/effervescentia%2Faurelia-sailsjs-boilerplate-frontend.svg)](https://badge.fury.io/gh/eeffervescentia%2Faurelia-sailsjs-boilerplate-frontend)
+[![GitHub version](https://badge.fury.io/gh/effervescentia%2Faurelia-sailsjs-boilerplate-frontend.svg)](https://badge.fury.io/gh/effervescentia%2Faurelia-sailsjs-boilerplate-frontend)
 [![Build Status](https://travis-ci.org/effervescentia/aurelia-sailsjs-boilerplate-frontend.png?branch=master)](https://travis-ci.org/effervescentia/aurelia-sailsjs-boilerplate-frontend)
 [![Dependency Status](https://david-dm.org/effervescentia/aurelia-sailsjs-boilerplate-frontend.svg)](https://david-dm.org/effervescentia/aurelia-sailsjs-boilerplate-frontend)
-[![devDependency Status](https://david-dm.org/effervescentia/aurelia-sailsjs-boilerplate-frontend/dev-status.svg)](https://david-dm.org/eeffervescentia/aurelia-sailsjs-boilerplate-frontend#info=devDependencies)
+[![devDependency Status](https://david-dm.org/effervescentia/aurelia-sailsjs-boilerplate-frontend/dev-status.svg)](https://david-dm.org/effervescentia/aurelia-sailsjs-boilerplate-frontend#info=devDependencies)
 
 Boilerplate uses Aurelia for the frontend.
 See more info at https://github.com/slushjs/slush-angular This library is awesome to distribute frontend. Frontend side
