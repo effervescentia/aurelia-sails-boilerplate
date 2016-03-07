@@ -1,0 +1,32 @@
+{
+  "name": "aurelia-sailsjs-boilerplate",
+  "version": "0.0.1",
+  "description": "Example boilerplate application for Aurelia + Sails.js with separated backend and frontend.",
+  "keywords": [
+    "sails.js",
+    "backend",
+    "REST",
+    "API",
+    "JWT",
+    "JSON Web Token",
+    "frontend",
+    "aurelia"
+  ],
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "install": "git submodule update --init --recursive && cd backend && npm install && cd ../frontend && npm install",
+    "start": "(cd backend && sails lift) & (cd frontend && gulp serve)",
+    "test": "cd backend && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/effervescentia/aurelia-sailsjs-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/effervescentia/aurelia-sailsjs-boilerplate/issues"
+  },
+  "author": "Ben Teichman",
+  "license": "MIT"
+}
