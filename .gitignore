@@ -3,3 +3,4 @@
 .DS_STORE
 .idea
 .node_history
+node_modules/

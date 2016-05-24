@@ -14,11 +14,22 @@
   ],
   "main": "",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.1.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-git": "^1.7.2",
+    "gulp-tag-version": "^1.3.0",
+    "require-dir": "^0.3.0"
+  },
   "scripts": {
     "install": "git submodule update --init --recursive && cd backend && npm install && cd ../frontend && npm install",
-    "start": "(cd backend && sails lift) & (cd frontend && gulp serve)",
-    "test": "cd backend && mocha"
+    "start": "(cd backend && npm start) & (cd frontend && npm start)",
+    "test": "cd backend && mocha",
+    "patch": "git submodule foreach gulp patch && gulp patch",
+    "minor": "git submodule foreach gulp minor && gulp minor",
+    "major": "git submodule foreach gulp major && gulp major",
+    "push": "git submodule foreach git push && git push"
   },
   "repository": {
     "type": "git",
