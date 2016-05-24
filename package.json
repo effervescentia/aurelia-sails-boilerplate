@@ -1,6 +1,6 @@
 {
   "name": "aurelia-sailsjs-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Example boilerplate application for Aurelia + Sails.js with separated backend and frontend.",
   "keywords": [
     "sails.js",
