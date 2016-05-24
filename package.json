@@ -29,7 +29,7 @@
     "patch": "git submodule foreach gulp patch && gulp patch",
     "minor": "git submodule foreach gulp minor && gulp minor",
     "major": "git submodule foreach gulp major && gulp major",
-    "push": "git submodule foreach git push && git push"
+    "push": "git submodule foreach git push --tags && git push --tags"
   },
   "repository": {
     "type": "git",
