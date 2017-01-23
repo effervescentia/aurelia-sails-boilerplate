@@ -1,5 +1,7 @@
 # 'Boilerplate' for Aurelia + Sails.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/effervescentia/aurelia-sails-boilerplate.svg)](https://greenkeeper.io/)
+
 ### Why?
 Modern web applications has separated front- and backend sides to use. This 'boilerplate' present one way to make
 <em>your</em> application which have fully separated back- and frontend sides. And really this is more than just a
